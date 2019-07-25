@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eureka-server     #服务名称，自定义
+  security:
+    user:
+      name: admin            #配置BASIC认证登录的账号
+      password: 111111       #配置BASIC认证登陆的密码
+server:
+  port: 7003                #指定该Eureka实例的端口
+eureka:
+  instance:
+    hostname: eurekaServer03.com
+  client:
+    registerWithEureka: false     #禁止注册自身
+    fetchRegistry: false          #因为该服务没有注册到其他注册中心，所以关闭从注册中心拉取服务列表
+    #如果是服务注册中心集群，需要开启，开启就是去掉该配置，采用默认配置即可
+    serviceUrl:
+      defaultZone: http://admin:111111@eurekaServer01.com:7001/eureka/,http://admin:111111@eurekaServer02.com:7002/eureka/
+  server:
+    renewalPercentThreshold: 0.49    #设置心跳正常的阀值，默认为1，测试时可以调低
+
