@@ -1,6 +1,6 @@
 # SpringCloudExample
 Spring Cloud学习记录
-![image text](https://github.com/dxdankin87/image/master/cpringcloud.jpg)
+![image text](https://github.com/dxdankin87/image/blob/master/springcloud.jpg)
 1. Eureka
    集群配置
    application.yml
