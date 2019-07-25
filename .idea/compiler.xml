@@ -10,24 +10,33 @@
         <module name="discovery03" />
         <module name="discovery02" />
         <module name="province" />
-        <module name="upload-server" />
+        <module name="upload-service02" />
+        <module name="upload-service" />
+        <module name="SpringCloudExample" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="discovery02" target="1.8" />
       <module name="discovery03" target="1.8" />
       <module name="province" target="1.8" />
-      <module name="upload-server" target="1.8" />
+      <module name="SpringCloudExample" target="1.8" />
+      <module name="upload-service" target="1.8" />
+      <module name="upload-service02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudExample" options="-parameters" />
+      <module name="consumer" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="discovery02" options="-parameters" />
       <module name="discovery03" options="-parameters" />
       <module name="province" options="-parameters" />
-      <module name="upload-server" options="-parameters" />
+      <module name="upload-service" options="-parameters" />
+      <module name="upload-service02" options="-parameters" />
     </option>
   </component>
 </project>

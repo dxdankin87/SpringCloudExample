@@ -2,9 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery03" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/upload-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload-service02" charset="UTF-8" />
   </component>
 </project>

@@ -17,7 +17,7 @@
         <module>discovery</module>
         <module>discovery02</module>
         <module>discovery03</module>
-        <module>upload-server</module>
+        <module>upload-service</module>
     </modules>
 
     <parent>

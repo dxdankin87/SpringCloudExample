@@ -1,0 +1,9 @@
+USER: admin
+PASSWORD: 111111
+server:
+  port: 80
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${USER}:${PASSWORD}@eurekaServer01.com:7001/eureka/,http://${USER}:${PASSWORD}@eurekaServer02.com:7002/eureka/,http://${USER}:${PASSWORD}@eurekaServer03.com:7003/eureka/
+    register-with-eureka: false

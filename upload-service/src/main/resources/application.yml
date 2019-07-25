@@ -1,0 +1,26 @@
+USER: admin
+PASSWORD: 111111
+server:
+  port: 8001
+spring:
+  application:
+    name: upload-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${USER}:${PASSWORD}@eurekaServer01.com:7001/eureka/,http://${USER}:${PASSWORD}@eurekaServer02.com:7002/eureka/,http://${USER}:${PASSWORD}@eurekaServer03.com:7003/eureka/
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}
+    prefer-ip-address: true         #��IPע�ᵽ����ע������
+
+#�ſ����нڵ�
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
