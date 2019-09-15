@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/discovery03/discovery03.iml" filepath="$PROJECT_DIR$/discovery03/discovery03.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload-service/upload-service.iml" filepath="$PROJECT_DIR$/upload-service/upload-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload-service02/upload-service02.iml" filepath="$PROJECT_DIR$/upload-service02/upload-service02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

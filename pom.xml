@@ -18,6 +18,8 @@
         <module>discovery02</module>
         <module>discovery03</module>
         <module>upload-service</module>
+        <module>upload-service02</module>
+        <module>zuul</module>
     </modules>
 
     <parent>

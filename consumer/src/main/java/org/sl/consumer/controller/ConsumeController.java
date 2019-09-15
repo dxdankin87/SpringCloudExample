@@ -18,6 +18,6 @@ public class ConsumeController {
     @GetMapping(value="consumer/upload")
     public String upload() {
         return restTemplate
-                .getForObject(URL_PREFIX+"/upload", String.class);
+                    .getForObject(URL_PREFIX+"/upload", String.class);
     }
 }
